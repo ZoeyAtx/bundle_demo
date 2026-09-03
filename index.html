@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ukázková produktová stránka Shoptet s interaktivním výběrem balíčku.">
+  <title>MOKA pražírna — Degustační balíček kávy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="utility-bar">
+    <div class="shell utility-inner">
+      <div>Doprava zdarma od 1 200 Kč</div>
+      <div class="utility-links">
+        <a href="#demo-link">+420 777 123 456</a>
+        <a href="#demo-link">info@mokaprazirna.cz</a>
+        <a href="#demo-link">Přihlášení</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="shell header-main">
+      <a class="brand" href="#demo-link" aria-label="MOKA pražírna">
+        <svg class="brand-mark" viewBox="0 0 50 50" aria-hidden="true">
+          <path d="M31 7c-9 1-19 8-22 17-3 10 1 18 10 19 10 1 19-7 22-17 3-9-1-18-10-19Z" fill="none" stroke="currentColor" stroke-width="3"/>
+          <path d="M13 36c8-7 15-13 25-20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text"><b>MOKA</b><small>pražírna kávy</small></span>
+      </a>
+
+      <form class="search-form" data-demo-form>
+        <label class="sr-only" for="search">Hledat</label>
+        <input id="search" type="search" placeholder="Co hledáte?">
+        <button type="submit">Hledat</button>
+      </form>
+
+      <a class="cart-link" href="#demo-link" aria-label="Košík">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.3 10.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
+        <span><small>Košík</small><b><span id="cartCount">0</span> položek</b></span>
+      </a>
+    </div>
+
+    <nav class="category-nav" aria-label="Hlavní navigace">
+      <div class="shell category-inner">
+        <a href="#demo-link">Káva</a>
+        <a href="#demo-link">Degustační balíčky</a>
+        <a href="#demo-link">Příslušenství</a>
+        <a href="#demo-link">Dárky</a>
+        <a href="#demo-link">Pro firmy</a>
+        <a href="#demo-link">O pražírně</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="shell breadcrumbs" aria-label="Drobečková navigace">
+      <a href="#demo-link">Domů</a><span>›</span><a href="#demo-link">Káva</a><span>›</span><span>Degustační balíček kávy</span>
+    </div>
+
+    <section class="shell product-detail">
+      <div class="gallery-column">
+        <div class="product-badges"><span>Oblíbené</span></div>
+        <div class="main-photo" id="mainPhoto" aria-label="Balení kávy Brazílie Fazenda">
+          <svg viewBox="0 0 720 720" role="img" aria-label="Balení výběrové kávy MOKA Brazílie Fazenda">
+            <rect width="720" height="720" fill="#f1ede5"/>
+            <ellipse cx="360" cy="612" rx="192" ry="26" fill="#d8d0c3"/>
+            <g transform="translate(210 86)">
+              <path d="M58 15h244l22 516H35Z" fill="#7b4b34"/>
+              <path d="M58 15h244l6 81H52Z" fill="#2e2825"/>
+              <path d="M52 96h256l11 267H41Z" fill="#ece4d4"/>
+              <path d="M41 363h278l7 168H35Z" fill="#b46039"/>
+              <rect x="82" y="145" width="188" height="155" fill="#fbf8f1" stroke="#d2c7b4"/>
+              <text x="176" y="184" text-anchor="middle" font-family="Georgia, serif" font-size="29" font-weight="bold" fill="#26211f">MOKA</text>
+              <text x="176" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="2" fill="#76695f">PRAŽÍRNA KÁVY</text>
+              <path d="M176 232c-21 2-41 17-48 37-6 19 4 34 24 32 21-2 41-17 48-37 6-19-4-34-24-32Z" fill="none" stroke="#7b4b34" stroke-width="4"/>
+              <path d="M139 290c15-13 29-25 48-42" fill="none" stroke="#7b4b34" stroke-width="3"/>
+              <text x="176" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#3b3430">BRAZÍLIE</text>
+              <text x="176" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#3b3430">FAZENDA</text>
+              <text x="176" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#fff5ea">čokoláda · lískový oříšek · karamel</text>
+              <text x="176" y="493" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#fff5ea">250 g · zrnková káva</text>
+            </g>
+            <g opacity=".9">
+              <ellipse cx="136" cy="560" rx="24" ry="14" transform="rotate(-26 136 560)" fill="#5a3527"/>
+              <path d="M119 568c10-8 22-15 34-20" fill="none" stroke="#d9b59c" stroke-width="2"/>
+              <ellipse cx="566" cy="574" rx="25" ry="15" transform="rotate(18 566 574)" fill="#6a3d2c"/>
+              <path d="M549 565c12 6 23 13 35 20" fill="none" stroke="#d9b59c" stroke-width="2"/>
+            </g>
+          </svg>
+        </div>
+        <div class="thumb-list" aria-label="Galerie produktu">
+          <button class="thumb active" data-photo="front" aria-label="Přední strana balení">
+            <svg viewBox="0 0 100 100"><rect width="100" height="100" fill="#f1ede5"/><path d="M35 13h31l4 70H31Z" fill="#7b4b34"/><rect x="35" y="30" width="31" height="26" fill="#f7f2e8"/><text x="50" y="43" text-anchor="middle" font-size="7" font-family="Arial">MOKA</text></svg>
+          </button>
+          <button class="thumb" data-photo="beans" aria-label="Pražená kávová zrna">
+            <svg viewBox="0 0 100 100"><rect width="100" height="100" fill="#ded5c5"/><g fill="#62402f"><ellipse cx="32" cy="38" rx="14" ry="9" transform="rotate(-25 32 38)"/><ellipse cx="64" cy="34" rx="15" ry="9" transform="rotate(18 64 34)"/><ellipse cx="48" cy="63" rx="16" ry="10" transform="rotate(-8 48 63)"/><ellipse cx="75" cy="67" rx="12" ry="8" transform="rotate(35 75 67)"/></g><g stroke="#b98f73" stroke-width="1.5"><path d="M21 44 43 31"/><path d="M52 29 76 39"/><path d="M33 65 64 61"/><path d="M67 60 83 73"/></g></svg>
+          </button>
+          <button class="thumb" data-photo="label" aria-label="Detail etikety">
+            <svg viewBox="0 0 100 100"><rect width="100" height="100" fill="#ece4d4"/><rect x="18" y="13" width="64" height="74" fill="#fffdf8" stroke="#d1c5b2"/><text x="50" y="34" text-anchor="middle" font-size="11" font-family="Georgia" font-weight="bold">MOKA</text><text x="50" y="48" text-anchor="middle" font-size="5" font-family="Arial">BRAZÍLIE</text><text x="50" y="58" text-anchor="middle" font-size="8" font-family="Arial" font-weight="bold">FAZENDA</text><text x="50" y="72" text-anchor="middle" font-size="4" font-family="Arial">250 g · zrnková</text></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <div class="product-code">Kód: BR-FZ-250</div>
+        <h1>Degustační balíček kávy</h1>
+        <button class="rating-link" data-demo-link type="button" aria-label="Hodnocení 4,9 z 5">
+          <span class="stars">★★★★★</span><span>4,9 (38 hodnocení)</span>
+        </button>
+        <p class="lead">Sladká, čistá káva z oblasti Minas Gerais. V chuti najdete mléčnou čokoládu, lískové oříšky a karamel. Výborná na espresso i moka konvičku.</p>
+
+        <div class="stock"><span class="stock-dot"></span><b>Skladem</b> — odesíláme do 24 hodin</div>
+
+        <div class="product-bundle" id="bundleBuilder">
+          <div class="product-bundle-title">
+            <div>
+              <span class="product-bundle-kicker">Sestavte si vlastní balíček</span>
+              <h2>Vyberte 4 kávy</h2>
+              <p>Jednotlivé druhy můžete libovolně kombinovat. Celkem vyberte čtyři balení po 250 g.</p>
+            </div>
+            <div class="bundle-saving">
+              <span>Balíček</span>
+              <strong>999 Kč</strong>
+              <small>místo až 1 116 Kč</small>
+            </div>
+          </div>
+
+          <div class="bundle-header">
+            <div>
+              <b>Vaše složení</b>
+              <span id="bundleStatus">Zatím není vybráno žádné</span>
+            </div>
+            <div class="progress-wrap" aria-label="Stav výběru">
+              <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+              <strong><span id="selectedCount">0</span> / 4</strong>
+            </div>
+          </div>
+
+          <div class="bundle-products">
+            <article class="bundle-product" data-bundle-product data-name="Brazílie Fazenda" data-price="289">
+              <div class="mini-bag bag-brazil"><span>MOKA</span><b>BRAZÍLIE</b><small>FAZENDA</small></div>
+              <div class="bundle-product-copy"><h3>Brazílie Fazenda</h3><p>mléčná čokoláda · oříšek · karamel</p><span>289 Kč / 250 g</span></div>
+              <div class="stepper"><button type="button" data-minus aria-label="Odebrat Brazílie Fazenda">−</button><strong data-count>0</strong><button type="button" data-plus aria-label="Přidat Brazílie Fazenda">+</button></div>
+            </article>
+
+            <article class="bundle-product" data-bundle-product data-name="Kolumbie Huila" data-price="289">
+              <div class="mini-bag bag-colombia"><span>MOKA</span><b>KOLUMBIE</b><small>HUILA</small></div>
+              <div class="bundle-product-copy"><h3>Kolumbie Huila</h3><p>červené jablko · kakao · třtinový cukr</p><span>289 Kč / 250 g</span></div>
+              <div class="stepper"><button type="button" data-minus aria-label="Odebrat Kolumbie Huila">−</button><strong data-count>0</strong><button type="button" data-plus aria-label="Přidat Kolumbie Huila">+</button></div>
+            </article>
+
+            <article class="bundle-product" data-bundle-product data-name="Etiopie Guji" data-price="279">
+              <div class="mini-bag bag-ethiopia"><span>MOKA</span><b>ETIOPIE</b><small>GUJI</small></div>
+              <div class="bundle-product-copy"><h3>Etiopie Guji</h3><p>jasmín · bergamot · meruňka</p><span>279 Kč / 250 g</span></div>
+              <div class="stepper"><button type="button" data-minus aria-label="Odebrat Etiopie Guji">−</button><strong data-count>0</strong><button type="button" data-plus aria-label="Přidat Etiopie Guji">+</button></div>
+            </article>
+
+            <article class="bundle-product" data-bundle-product data-name="Guatemala Antigua" data-price="269">
+              <div class="mini-bag bag-guatemala"><span>MOKA</span><b>GUATEMALA</b><small>ANTIGUA</small></div>
+              <div class="bundle-product-copy"><h3>Guatemala Antigua</h3><p>hořká čokoláda · švestka · mandle</p><span>269 Kč / 250 g</span></div>
+              <div class="stepper"><button type="button" data-minus aria-label="Odebrat Guatemala Antigua">−</button><strong data-count>0</strong><button type="button" data-plus aria-label="Přidat Guatemala Antigua">+</button></div>
+            </article>
+          </div>
+
+          <div class="bundle-footer">
+            <div>
+              <span>Cena balíčku</span>
+              <strong>999 Kč</strong>
+              <small>Ušetříte až 117 Kč</small>
+            </div>
+            <button type="button" id="addBundleCart" disabled>Přidat balíček do košíku</button>
+          </div>
+        </div>
+
+        <div class="delivery-lines">
+          <div><span class="delivery-icon">✓</span><span><b>Praženo tento týden</b><small>Kávu posíláme co nejčerstvější.</small></span></div>
+          <div><span class="delivery-icon">↺</span><span><b>Výměna bez starostí</b><small>Nesedla vám? Ozvěte se nám.</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell product-tabs" aria-label="Informace o produktu">
+      <div class="tab-buttons" role="tablist">
+        <button class="active" type="button" data-tab="description">Popis</button>
+        <button type="button" data-tab="preparation">Příprava</button>
+        <button type="button" data-tab="origin">Původ</button>
+      </div>
+      <div class="tab-panel active" data-panel="description">
+        <div><h2>Káva pro každý den</h2><p>Brazílie Fazenda je příjemně sladká a bez výrazné acidity. Pražíme ji středně, aby fungovala jako spolehlivé espresso, ale neztratila charakter původu.</p><p>Zrna pocházejí z menší rodinné farmy v Minas Gerais a jsou zpracovaná naturální metodou.</p></div>
+        <dl class="product-params"><div><dt>Země</dt><dd>Brazílie</dd></div><div><dt>Oblast</dt><dd>Minas Gerais</dd></div><div><dt>Zpracování</dt><dd>Natural</dd></div><div><dt>Pražení</dt><dd>Střední</dd></div></dl>
+      </div>
+      <div class="tab-panel" data-panel="preparation"><div><h2>Doporučená příprava</h2><p>Na espresso začněte s poměrem 18 g kávy na 38–40 g nápoje za 27–30 sekund. Pro moka konvičku použijte středně jemné mletí.</p></div></div>
+      <div class="tab-panel" data-panel="origin"><div><h2>Minas Gerais</h2><p>Horské oblasti jihovýchodní Brazílie patří mezi nejznámější kávové regiony země. Teplé dny a chladnější noci pomáhají vytvářet sladký, kulatý profil.</p></div></div>
+    </section>
+
+    <section class="related-section">
+      <div class="shell">
+        <div class="section-heading"><h2>Mohlo by vám chutnat</h2><a href="#demo-link">Zobrazit všechny kávy</a></div>
+        <div class="related-grid">
+          <article class="related-card"><a href="#demo-link" class="related-image"><div class="related-bag bag-colombia"><span>MOKA</span><b>KOLUMBIE</b><small>HUILA</small></div></a><h3><a href="#demo-link">Kolumbie Huila, 250 g</a></h3><p>červené jablko · kakao</p><div><b>289 Kč</b><button type="button" data-quick-add>Do košíku</button></div></article>
+          <article class="related-card"><a href="#demo-link" class="related-image"><div class="related-bag bag-ethiopia"><span>MOKA</span><b>ETIOPIE</b><small>GUJI</small></div></a><h3><a href="#demo-link">Etiopie Guji, 250 g</a></h3><p>jasmín · bergamot</p><div><b>279 Kč</b><button type="button" data-quick-add>Do košíku</button></div></article>
+          <article class="related-card"><a href="#demo-link" class="related-image"><div class="related-bag bag-guatemala"><span>MOKA</span><b>GUATEMALA</b><small>ANTIGUA</small></div></a><h3><a href="#demo-link">Guatemala Antigua, 250 g</a></h3><p>švestka · mandle</p><div><b>269 Kč</b><button type="button" data-quick-add>Do košíku</button></div></article>
+          <article class="related-card"><a href="#demo-link" class="related-image"><div class="related-bag bag-house"><span>MOKA</span><b>HOUSE</b><small>ESPRESSO</small></div></a><h3><a href="#demo-link">House Espresso, 500 g</a></h3><p>čokoláda · karamel</p><div><b>499 Kč</b><button type="button" data-quick-add>Do košíku</button></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="brand footer-brand" href="#demo-link"><span class="brand-text"><b>MOKA</b><small>pražírna kávy</small></span></a><p>Výběrovou kávu pražíme v malých dávkách a posíláme čerstvou přímo k vám.</p></div>
+      <div><h3>Nákup</h3><a href="#demo-link">Doprava a platba</a><a href="#demo-link">Obchodní podmínky</a><a href="#demo-link">Reklamace</a></div>
+      <div><h3>O nás</h3><a href="#demo-link">Náš příběh</a><a href="#demo-link">Pro firmy</a><a href="#demo-link">Kontakt</a></div>
+      <div><h3>Kontakt</h3><p>Po–Pá 8:00–16:00<br>+420 777 123 456<br>info@mokaprazirna.cz</p></div>
+    </div>
+    <div class="shell footer-bottom"><span>© 2026 MOKA pražírna — ukázkový e-shop</span><span>Vytvořeno jako interaktivní demo</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal-backdrop" id="demoModal" hidden>
+    <div class="demo-modal" role="dialog" aria-modal="true" aria-labelledby="demoModalTitle">
+      <button class="modal-close" type="button" id="closeDemoModal" aria-label="Zavřít">×</button>
+      <div class="modal-icon">i</div>
+      <h2 id="demoModalTitle">Toto je pouze ukázková stránka</h2>
+      <p>Produktová stránka a výběr balíčku jsou plně interaktivní, ale odkazy do dalších částí e-shopu jsou v této ukázce vypnuté.</p>
+      <button class="modal-primary" type="button" id="stayOnDemo">Zůstat na demu</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
